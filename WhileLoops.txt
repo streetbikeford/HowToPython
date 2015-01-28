@@ -30,7 +30,10 @@ else:
 for data in 'hello':
     print(data)
 
+
+//This script will pull every third letter, starting with 1. Every 3rd letter is 
+//an i 
     
-for key,data in enumerate('string'):
-    if key % 2 == 0:
-       print('The letter {} is in an even location'.format(data))
+for key,data in enumerate('Mississippi'):
+    if key % 3 == 1:
+       print('The letter {} is in a location divisible by 3'.format(data))
