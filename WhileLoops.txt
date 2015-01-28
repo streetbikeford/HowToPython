@@ -1,3 +1,6 @@
+//WHILE LOOPS
+
+
 //You begin with a = 50. While a , 100 you will print the value of a. 
 //After every print, you will add 1 to add and recheck to see if it's <100
 //If a is no longer <100, print the string "You have reached 100"
@@ -11,13 +14,22 @@ else:
     print("You have reached 100")
     
 
+//FOR LOOPS
 
 
-for data in 'string':
+
+// for data will read each character in your string individually. so for data //'hello' will print as 
+//h
+//e
+//l
+//l
+//o
+//The same is true of lists. If you enter the command for data in (a,v,s,g,w) and //print, you will list of each letter on it's own line.
+
+
+for data in 'hello':
     print(data)
 
-for data in (1,2,3,4,5):
-    print (data)
     
 for key,data in enumerate('string'):
     if key % 2 == 0:
