@@ -1,0 +1,24 @@
+//You begin with a = 50. While a , 100 you will print the value of a. 
+//After every print, you will add 1 to add and recheck to see if it's <100
+//If a is no longer <100, print the string "You have reached 100"
+
+a = 50
+
+while a < 100: 
+    print (a)
+    a+=1
+else:    
+    print("You have reached 100")
+    
+
+
+
+for data in 'string':
+    print(data)
+
+for data in (1,2,3,4,5):
+    print (data)
+    
+for key,data in enumerate('string'):
+    if key % 2 == 0:
+       print('The letter {} is in an even location'.format(data))
