@@ -1,3 +1,5 @@
+#!/usr/bin/python2.7 -tt
+
 ##Try statements allow you to give user error messages
 
 ##tuples are basically read-only lists
