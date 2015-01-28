@@ -26,3 +26,16 @@ try:
 		print(each)
 except:
 	print('Configuration Error')
+
+
+## Adding attributes to your error message. Will give you more detail concerning the error
+
+tuple=(1,4,54,55)
+
+try:
+	tuple.append(45)      ## Your script will try to append the tuple, fail, and skip to except
+	for each in tuple:
+		print(each)
+except AttributeError as e:  ## The error here is append is not an attribute of tuple. 
+	print('Configuration Error', e)  
+
