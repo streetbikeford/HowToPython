@@ -1,7 +1,12 @@
 
-list = [1,2,3,4,5,6,7,8,9]
+##Configure your list or tuple. For string/int/whatever in *the name of your list or tuple*
+## print the string/int. 
+
+list = [1,2,3,4,5]
 for int in list:
     print(int)
+
+## Adding an if break statement will stop the loop should a value be matched.    
 
 list = [1,2,3,4,5,6,7,8,9]
 for int in list:
