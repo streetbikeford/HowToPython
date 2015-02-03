@@ -5,14 +5,15 @@
 //After every print, you will add 1 to add and recheck to see if it's <100
 //If a is no longer <100, print the string "You have reached 100"
 
-a = 50
+a = 50 
 
-while a < 100: 
-    print (a)
+while a < 100:     
+	print (a)
     a+=1
 else:    
     print("You have reached 100")
-    
+
+
 
 //FOR LOOPS
 
