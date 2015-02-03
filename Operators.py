@@ -33,5 +33,25 @@ print (c < d, 'This checks if the right operands is greater than the left')
 print (c >= d, 'This checks if the left operands is greater than or equal to the right')
 print (c <= d, 'This checks if the right operands is greater than or equal to the left')
 
-## Assignment operators 
+## Logical operators 
 
+g = 20
+h = 10
+i = 15
+
+print(True if g and h > i else False) #This checks to see if both g and h are greater than i
+print(True if g or h < i else False) #This checks to see if either g and h are less than to i
+
+## Membership OperatorsTest
+## In Python you can reference data lying in a sequence, using a membership operator
+
+list = [1,2,3,4,5,6,7,8,9]
+for int in list:
+   print(int)  # For the int in the sequence, print the int. You can expand on this and call out data
+   
+list = [1,2,3,4,5,6,7,8]
+for int in list:
+    if int > 5:
+        break
+    else:
+        print(int)
