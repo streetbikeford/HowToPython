@@ -32,3 +32,6 @@ print (c > d, 'This checks if the left operands is greater than the right')
 print (c < d, 'This checks if the right operands is greater than the left')
 print (c >= d, 'This checks if the left operands is greater than or equal to the right')
 print (c <= d, 'This checks if the right operands is greater than or equal to the left')
+
+## Assignment operators 
+
