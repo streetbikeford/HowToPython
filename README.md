@@ -1,2 +1,4 @@
 # HowToPython
-Simple Python code I've been studying. Feel free to add to the lists. The goal is to be very user friendly. Each text file is written so that you can copy and paste the entire file and test it in the compiler of your choice. 
+This repo will begin with simple explanations of the Python basics, in a format that you can copy and paste directly into your terminal and test.
+
+I will soon be adding simple, hopefully useful, scripts to perform everyday tasks on your machine.
